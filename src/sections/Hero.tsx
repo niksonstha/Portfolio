@@ -130,22 +130,55 @@ function Hero() {
               </a>
             </div>
 
-            <div
-              ref={socialsRef}
-              className="mt-8 flex items-center gap-6 text-sm text-muted sm:mt-10"
-            >
+            <div ref={socialsRef} className="mt-9 flex items-center sm:mt-11">
               <a
-                href="#"
-                className="transition-colors duration-200 hover:text-foreground"
+                href="https://github.com/niksonstha"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Nikson on GitHub (opens in a new tab)"
+                className="group inline-flex items-center gap-2.5 rounded-full border border-border px-4 py-2.5 text-sm text-muted transition-all duration-300 hover:border-foreground/20 hover:bg-surface hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-4 focus-visible:ring-offset-background"
               >
-                GitHub
+                <span
+                  aria-hidden="true"
+                  className="flex h-5 w-5 items-center justify-center rounded-full border border-border text-[10px] font-semibold transition-colors duration-300 group-hover:border-foreground/30"
+                >
+                  GH
+                </span>
+
+                <span>GitHub</span>
+
+                <span
+                  aria-hidden="true"
+                  className="text-xs text-muted transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-accent"
+                >
+                  ↗
+                </span>
               </a>
 
+              <span aria-hidden="true" className="mx-3 h-4 w-px bg-border" />
+
               <a
-                href="#"
-                className="transition-colors duration-200 hover:text-foreground"
+                href="https://uk.linkedin.com/in/nikson-shrestha-8483ab174"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Nikson on LinkedIn (opens in a new tab)"
+                className="group inline-flex items-center gap-2.5 rounded-full border border-border px-4 py-2.5 text-sm text-muted transition-all duration-300 hover:border-foreground/20 hover:bg-surface hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-4 focus-visible:ring-offset-background"
               >
-                LinkedIn
+                <span
+                  aria-hidden="true"
+                  className="flex h-5 w-5 items-center justify-center rounded-full border border-border text-[10px] font-semibold transition-colors duration-300 group-hover:border-foreground/30"
+                >
+                  in
+                </span>
+
+                <span>LinkedIn</span>
+
+                <span
+                  aria-hidden="true"
+                  className="text-xs text-muted transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-accent"
+                >
+                  ↗
+                </span>
               </a>
             </div>
           </div>
