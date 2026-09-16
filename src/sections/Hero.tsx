@@ -134,7 +134,7 @@ function Hero() {
               <a
                 href="https://github.com/niksonstha"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 aria-label="Nikson on GitHub (opens in a new tab)"
                 className="group inline-flex items-center gap-2.5 rounded-full border border-border px-4 py-2.5 text-sm text-muted transition-all duration-300 hover:border-foreground/20 hover:bg-surface hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-4 focus-visible:ring-offset-background"
               >
@@ -160,7 +160,7 @@ function Hero() {
               <a
                 href="https://uk.linkedin.com/in/nikson-shrestha-8483ab174"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 aria-label="Nikson on LinkedIn (opens in a new tab)"
                 className="group inline-flex items-center gap-2.5 rounded-full border border-border px-4 py-2.5 text-sm text-muted transition-all duration-300 hover:border-foreground/20 hover:bg-surface hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-4 focus-visible:ring-offset-background"
               >

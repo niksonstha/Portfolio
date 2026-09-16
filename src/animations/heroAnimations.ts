@@ -80,12 +80,11 @@ export function createHeroIntroAnimation(elements: HeroAnimationElements) {
       "-=0.35",
     )
     .from(
-      socials?.children ?? [],
+      socials,
       {
         y: 15,
         opacity: 0,
-        duration: 0.4,
-        stagger: 0.08,
+        duration: 0.5,
       },
       "-=0.25",
     );
@@ -135,10 +134,12 @@ export function createHeroMouseInteraction(
   };
 
   scope.addEventListener("pointermove", handlePointerMove);
+
   scope.addEventListener("pointerleave", handlePointerLeave);
 
   return () => {
     scope.removeEventListener("pointermove", handlePointerMove);
+
     scope.removeEventListener("pointerleave", handlePointerLeave);
 
     gsap.killTweensOf(decoration);
